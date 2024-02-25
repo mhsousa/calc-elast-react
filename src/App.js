@@ -66,7 +66,6 @@ function atualiza(){
         <p id="resultado4" className="resultados">ELASTICIDADE: </p>
         <p id="exp" className="resultados">RESULTADO:</p>
         </div>
-        <button>FÓRMULA</button>
 
    
  
