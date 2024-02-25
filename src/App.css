@@ -1,0 +1,140 @@
+
+.App{
+ background-image: url('money.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-width: 100vw;
+ min-height: 100vh;
+ font-weight: bolder;
+}
+
+
+.App-header {
+  max-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 0.6vmin);
+}
+h1{
+  color:rgb(255, 255, 255);
+  background-color:  rgb(0, 0, 0);
+  font-weight: bold;
+  width:100vw;
+  padding:-15px;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  justify-content: center;
+  display: flex;
+  font-weight: 100;
+  flex-direction: row;
+  max-width:40sw;
+  font-family: "Nanum Myeongjo", serif;
+  font-style: normal;
+
+}
+.App-inputs{
+  text-align: center;
+  max-width: 60%;
+
+
+}
+.App-inputs label{
+  line-height: 1.5; /* Espaçamento entre linhas */
+  font-weight: bold;
+}
+button{width: 150px; /* Largura do botão */
+  height: 40px; /* Altura do botão */
+  padding: 10px; /* Espaço interno entre o texto e a borda */
+  margin: 10px; /* Espaço externo ao redor do botão */
+  border: 1px solid #101010; /* Borda do botão */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  font-size: 16px; /* Tamanho da fonte do texto */
+  font-family: Arial, sans-serif; /* Família da fonte do texto */
+  text-align: center; /* Alinha o texto ao centro do botão */
+  cursor: pointer; /* Muda o cursor para "mão" ao passar o mouse sobre o botão */
+
+  /* Propriedades para melhorar a aparência */
+  background-color: #000000; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar profundidade */
+  transition: all 0.2s ease-in-out; /* Animação suave ao passar o mouse sobre o botão */
+
+  /* Propriedades para foco */
+  &:focus {
+    border-color: #000000; /* Cor da borda ao focar no botão */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao focar no botão */
+  }
+
+  /* Propriedades para hover */
+  &:hover {
+    background-color: #005fa7; /* Cor de fundo ao passar o mouse sobre o botão */
+  }
+
+  /* Propriedades para estado ativo */
+  &:active {
+    background-color: #004787; /* Cor de fundo ao clicar no botão */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao clicar no botão */
+  }
+}
+.App-inputs input{
+  max-width: 70%;
+    width: 300px; 
+    height: 40px; 
+    padding: 10px; 
+    margin: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+    background-color: rgb(7, 7, 7);
+    color: #fffcfc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    transition: all 0.2s ease-in-out; 
+
+    &:focus {
+      border-color: #007bff; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    }
+
+}
+label{
+  background-color: rgb(255, 255, 255);
+  padding:-10px;
+
+}
+footer{
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#infos{
+  min-height: 400px;
+}
+.resultados{
+  width: 300px; 
+  height: 40px; 
+  padding: 10px; 
+  margin: 10px; 
+  border: 1px solid #ccc; 
+  background-color: rgb(11, 11, 11);
+  border-radius: 5px; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  transition: all 0.2s ease-in-out; 
+  &:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+}
