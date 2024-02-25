@@ -1,8 +1,5 @@
 
 .App{
- position:'absolute';
- top:0px;
- left:0px;
  background-image: url('money.webp');
  background-repeat: no-repeat;
  background-size: cover;
