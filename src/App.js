@@ -40,7 +40,7 @@ function atualiza(){
       <header className="App-header">
         <br></br><br></br><br></br><br></br>
         <h1>CALCULADORA DE ELASTICIDADE PREÇO-DEMANDA</h1>          
-        <br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br>
       </header>
       <br></br>
     <div class="linha">
