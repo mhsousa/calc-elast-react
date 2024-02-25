@@ -1,6 +1,8 @@
-
+.App{
+  background-color:#23238E;
+}
 body{
-  background-color:#00009C}
+  background-color:#23238E}
 
 .App-header {
   max-height: 7vh;
