@@ -37,6 +37,7 @@ body{
 
 }
 .App-inputs{
+   max-width:50vw;
   text-align: center;
   max-width: 60%;
 
