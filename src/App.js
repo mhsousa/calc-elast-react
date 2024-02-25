@@ -62,7 +62,7 @@ function atualiza(){
       <footer>
       <button onClick={atualiza}>CALCULAR</button>
 
-        <div >
+      
         <p id="resultado"  className="resultados">RECEITA INICIAL:</p>
         <p id="resultado2" className="resultados">RECEITA FINAL: </p>
         <p id="resultado3" className="resultados">DIFERENÇA PERCENTUAL:</p>
@@ -73,7 +73,7 @@ function atualiza(){
    
  
       </footer>
-         </div>
+       
   );
 }
 
