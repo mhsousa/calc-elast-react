@@ -3,7 +3,8 @@ body{
   position:absolute;
   top:0px;
   left:0px;
-  background-color:#23238E}
+  max-height:110%;
+  background-color:#41457c}
 
 .App-header {
   max-height: 7vh;
