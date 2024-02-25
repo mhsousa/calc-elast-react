@@ -32,7 +32,6 @@ body{
   display: flex;
   font-weight: 100;
   flex-direction: row;
-  max-width:30vw;
   font-family: "Nanum Myeongjo", serif;
   font-style: normal;
 
