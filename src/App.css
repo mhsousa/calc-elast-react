@@ -1,10 +1,13 @@
 
 .App{
+ position:'absolute';
+ top:0px;
+ left:0px;
  background-image: url('money.webp');
  background-repeat: no-repeat;
  background-size: cover;
- min-width: 100vw;
- min-height: 100vh;
+ min-width: 110vw;
+ min-height: 110vh;
  font-weight: bolder;
 }
 
