@@ -5,7 +5,7 @@ body{
   position:absolute;
   top:0px;
   left:0px;
-  min-height:110%;
+  max-height:110%;
   background-color:#41457c}
 
 .App-header {
