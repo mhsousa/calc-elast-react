@@ -43,9 +43,7 @@ function atualiza(){
         <br></br><br></br>
       </header>
       <br></br>
-      <body>
-
-          <form className='App-inputs'>
+           <form className='App-inputs'>
           <label>PREÇO INICIAL:</label> <br></br><input type="number" value={precoinicial} placeholder="R$" onChange={(e) => {if(e.target.value>=0){setPrecoinicial(e.target.value)}else{alert("Não insira números negativos.")}}} onKeyDown={handleInputChange}/><br></br><br></br>
           <label>PREÇO FINAL:</label><br></br><input type="number" value={precofinal} placeholder="R$" onKeyDown={handleInputChange} onChange={(e) => {setPrecoFinal(e.target.value);}}/><br></br><br></br>
 
@@ -54,6 +52,9 @@ function atualiza(){
           <label>QUANTIDADE INICIAL:</label><br></br> <input type="number" value={qtdinicial} placeholder="Qtd"  onKeyDown={handleInputChange} onChange={(e) => {setQtdInicial(e.target.value);}} /><br></br><br></br>
           <label>QUANTIDADE FINAL:</label><br></br><input type="number" value={qtdfinal} placeholder="Qtd" onKeyDown={handleInputChange} onChange={(e) => {setQtdFinal(e.target.value);}}/><br></br><br></br>
           </form>
+      <body>
+
+   
         </body>
         <br></br>
       <footer>
